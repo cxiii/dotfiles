@@ -122,3 +122,6 @@ if ! shopt -oq posix; then
   fi
 fi
 alias myoctave='/home/cxiii/my_octave/bin/octave'
+
+# export 'most' as PAGER for colored pagination, instead of vanilla more/less
+export PAGER='most'
